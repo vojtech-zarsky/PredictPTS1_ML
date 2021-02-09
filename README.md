@@ -3,9 +3,7 @@ A script used to predict E. histolytica peroxisomal proteins. The file "pts1_can
 
 
 run:
-
 python predictPTS1_ML.py train <pts1file> <non-pts1file>
-
 python predictPTS1_ML.py train <ifile>
 
 
