@@ -6,7 +6,7 @@ run:
 
 python predictPTS1_ML.py train \<pts1file> \<non-pts1file>
 
-python predictPTS1_ML.py train \<ifile>
+python predictPTS1_ML.py predict \<ifile>
 
 
-Creates an \<infile>.annotation.tsv table.
+Creates a trainPts1ML.model.pickle file and an \<infile>.annotation.tsv table.
